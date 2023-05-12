@@ -1,0 +1,59 @@
+
+$newblue: #3282F7 !default;
+$newred:  #ED6454 !default;
+$newgreen: #68D9A4!default;
+
+$theme-colors: (
+  "primary": $newblue,
+  "danger": $newred,
+  "success":$newgreen,
+);
+
+.btn-group ul.bg-primary, li.bg-primary {
+    background-color:$newblue !important;
+}
+
+.btn-group ul.bg-success, li.bg-success {
+    background-color:$newgreen !important;
+}
+
+.btn-group ul.bg-danger, li.bg-danger {
+    background-color:$newred !important;
+}
+
+
+
+.btn-primary{
+    background-color:$newblue !important;
+    border-color: $newblue !important;
+}
+.bg-primary{
+    background-color:$newblue !important;
+}
+
+.btn-success{
+    background-color:$newgreen !important;
+    border-color: $newgreen !important;
+}
+
+.bg-sucess{
+    background-color:$newgreen !important;
+}
+
+.btn-danger{
+    background-color:$newred !important;
+    border-color: $newred !important;
+}
+.bg-danger{
+    background-color:$newred !important;
+}
+
+#bloc-recipe{
+    justify-content: space-between;
+}
+
+
+@import "./components/cards";
+@import "./components/search";
+@import "./base/base.scss";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";

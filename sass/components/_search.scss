@@ -1,0 +1,102 @@
+.input-search{
+    background-color: lightgray !important;
+    height: 69px;
+}
+
+#tags{
+    .tag-item{
+        color: white; 
+        font-weight:700;
+        font-size:14px; 
+    }
+    .tag-item:hover{
+        color:black !important;
+    }
+    .delete-tag{
+        position: relative;
+        background-image: url('../../public/assets/icons/close-icon.png') no-repeat;
+        bottom:2px;
+        margin-left:5px;
+        width: 20px;
+        height: 20px;
+    }
+
+}
+
+.btn-group {
+    
+    .dropdown-toggle{
+        height: 69px;
+        border-radius: 5px;
+        display: flex;
+        position: relative;
+        font-size: 18px;
+        font-weight: 500;
+        color: white;
+
+    }
+
+    .expand{
+        background-image: url('./../../assets/icons/expanIcon.svg') ;
+        position: absolute;
+        top:15px;
+        right: 12px;
+        width: 37px;
+        height: 36px;
+        transition: all 0.5s;
+        z-index:3
+    }
+
+    .rotate{
+        -webkit-transform: rotateX(180deg);
+        -moz-transform: rotateX(180deg);
+        transform: rotateX(180deg);
+        top:22px;
+    }
+
+    .dropdown-toggle.show{
+        width: 667px;
+    }
+    .dropdown-toggle.show::placeholder{
+        color:lightgrey
+    }
+
+
+    input::placeholder{
+        color: white; 
+        font-weight:700;
+        font-size:14px;
+        text-align: start;
+    }
+    input.btn{
+        text-align: start;
+    }
+    ul.show {
+        width: 677px;
+        flex-flow: row wrap;
+        display: flex;
+        overflow: hidden;
+        overflow-y: scroll;
+    
+        .dropdown-item{
+            color:white; 
+            font-weight: 600;
+        }
+        .dropdown-item:hover{
+            color:black !important;   
+        }
+    }
+
+    ul.bg-primary{
+        height: 300px;
+    }
+
+
+
+}
+
+
+
+
+
+
