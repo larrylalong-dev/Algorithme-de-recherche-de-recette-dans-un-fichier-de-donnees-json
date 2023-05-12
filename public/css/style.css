@@ -38,6 +38,12 @@
   background-color: #ED6454 !important;
 }
 
+#bloc-recipe {
+  justify-content: space-between ;
+  flex-wrap: wrap;
+}
+
+
 .card {
   width: 31%;
   height: 364px;
@@ -6168,6 +6174,27 @@ textarea.form-control-lg {
     z-index: 1020;
   }
 }
+
+@media (max-width: 1024px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  #search-bloc article > div{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+  } 
+}
+
+
 .hstack {
   display: flex;
   flex-direction: row;
